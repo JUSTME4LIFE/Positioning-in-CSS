@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Positioning in CSS</title>
+<style>
+    .absolute{
+        position: absolute;
+        width: 300px;
+        border: 2px solid peachpuff;
+        left: 100px;
+    }
+    .relative{
+        position: relative;
+        width: 300px;
+        border: 2px solid powderblue;
+        left: 100px;
+    }
+    .fixed{
+        position: fixed;
+        width: 300px;
+        border: 2px solid lightpink;
+        right: 300px;
+        left: 200px;
+    }
+    .sticky{
+        position: sticky;
+        width: 300px;
+        border: 2px solid plum;
+        left: 20px;
+    }
+</style>
+    </head>
+    <body>
+        <div class="absolute">
+            This is a div with absolute Positioning
+        </div>
+<div class="relative">
+    This is a div with relative Positioning
+</div>
+<div class="sticky">
+    This is a div with sticky Positioning
+</div>
+<div class="fixed">
+    This is a div with fixed Positioning
+</div>
+<div class="static">
+    This is a div with static Positioning
+</div>
+    </body>
+</html>
